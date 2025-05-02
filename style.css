@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    border-size:border-box;
+  }
+  body{
+   display:flex;
+    justify-content:center;
+    align-items:center;      
+    margin-top:100px;
+    background-color:white;
+    font-size: 20px;   
+  }
+  .profile-card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;   
+    max-width:350px;
+    width:100%;
+    background:white;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5); 
+    border-radius:24px;
+    padding:24px;  
+  }
+ .image {
+   position:relative;
+   height:100px;
+   width:100px;
+   border-radius:50%;
+  background-color:rgb(187, 187, 194);
+  padding:3px ;
+   margin-bottom:10px;  
+ }
+  .image .profile-img {
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius:50%;
+    border: 1px solid white;
+  }
+ .profile-card .text-data {
+   display:flex;
+   flex-direction:column;
+   margin-top:20px;
+   text-align:center;
+}
+  .text-data .name{
+    font-size:25px;
+   font-weight:500; 
+    padding:15px;
+    font-family: sanis-saref;
+  }
+.text-data .skill{
+    font-size:15px;
+   font-weight:400;
+    font-family: sanis-saref;
+  }
+.profile-card .media-bottoms {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:20px;
+  padding:5px;
+  }
+.media-bottoms .links{
+  width:30px;
+  height:30px;
+  font-size:20px;
+align-items:center;
+  display:flex;
+  justify-content:center;
+  background-color:blue;
+  margin: 0 8px;
+  color:white;
+  border-radius:12px;
+  text-decoration:none;
+}
+.links:hover{
+   box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+  }
+.profile-card .buttons {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:15px;
+  
+}
+.buttons .btn {
+  background-color: #1877F2;
+  color:rgb(20, 19, 19);
+  font-size:20px;
+  padding: 10px 10px;
+  margin: 0 10px;
+  border: 1px solid white;
+  border-radius:24px;
+   font-family: sanis-saref;
+  }
+
+.btn:hover{
+  background-color:blue;
+  box-shadow: 0px 8px 2px black;
+  }
+.btn:active{
+  color:greenyellow;
+  }
+.btn:focus{
+  color:#1877F2
+  }
